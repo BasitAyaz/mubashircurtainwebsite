@@ -39,7 +39,7 @@ export default function ChooseUsSection() {
                         <SmileOutlined style={{ fontSize: 60 }} />
                     </BABox>
                     <BAPera className='text-3xl mb-4 text-center'>Customer Satisfaction</BAPera>
-                    <BAPera>We prioritize our clients' satisfaction above all.</BAPera>
+                    <BAPera>We prioritize our clients&apos; satisfaction above all.</BAPera>
                 </BABox>
             </BABox>
         </BABox>

@@ -34,7 +34,7 @@ export default function ReviewSection() {
     return <>
         <BABox className="p-10 md:p-20">
             <BAHeading>Customer Reviews</BAHeading>
-            {/* {loader ? <BAPera>Loading ...</BAPera> : <Carousel autoplay>
+            {loader ? <BAPera>Loading ...</BAPera> : <Carousel autoplay>
                 {listData.map((x: any, i: any) => <BABox key={i} className="customRounded p-10 md:p-20" sx={contentStyle}>
                     <BABox className="flex">
                         <UserOutlined style={{ fontSize: 50 }} />
@@ -47,7 +47,7 @@ export default function ReviewSection() {
                         <BAPera className="text-2xl">{x.comments}</BAPera>
                     </BABox>
                 </BABox>)}
-            </Carousel>} */}
+            </Carousel>}
         </BABox>
     </>
 }
