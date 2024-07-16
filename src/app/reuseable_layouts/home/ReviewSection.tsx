@@ -40,7 +40,7 @@ export default function ReviewSection() {
                         <UserOutlined style={{ fontSize: 50 }} />
                         <BABox className="ps-2">
                             <BAPera className="text-3xl">{x.customerName}</BAPera>
-                            {ratings.map((s, i) => <StarFilled style={{ fontSize: 20, color: s >= x.starRating ? 'grey' : "orange" }} />)}
+                            {ratings.map((s, i) => <StarFilled key={i} style={{ fontSize: 20, color: s >= x.starRating ? 'grey' : "orange" }} />)}
                         </BABox>
                     </BABox>
                     <BABox className="py-3">
