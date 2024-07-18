@@ -23,8 +23,9 @@ const Navbar = () => {
                         <div className="hidden md:flex space-x-4 ml-10">
                             <Link href="/" className="hover:text-white">Home</Link>
                             <Link href="/about" className="hover:text-white">About</Link>
-                            <div className="relative group">
-                                <button className="hover:text-white">Services</button>
+                            <Link href="/services" className="hover:text-white">Services</Link>
+                            {/* <div className="relative group">
+                                <button className="hover:text-white h-full">Services</button>
                                 <div className="absolute hidden group-hover:block bg-[#000000] text-[#F4C66E] mt-2 py-2 w-48">
                                     <Link href="/services/blinds" className="block px-4 py-2 hover:bg-[#2A5565]">Blinds</Link>
                                     <Link href="/services/sofa" className="block px-4 py-2 hover:bg-[#2A5565]">Sofa</Link>
@@ -33,7 +34,7 @@ const Navbar = () => {
                                     <Link href="/services/french-wall" className="block px-4 py-2 hover:bg-[#2A5565]">French Wall</Link>
                                     <Link href="/services/pvd-folding-door" className="block px-4 py-2 hover:bg-[#2A5565]">PVD Folding Door</Link>
                                 </div>
-                            </div>
+                            </div> */}
                             <Link href="/contact" className="hover:text-white">Contact</Link>
                             <Link href="/customer-reviews" className="hover:text-white">Customer Reviews</Link>
                         </div>
