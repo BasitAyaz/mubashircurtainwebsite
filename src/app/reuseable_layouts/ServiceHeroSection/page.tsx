@@ -5,8 +5,8 @@ import BAPera from "@/app/components/BAPera"
 
 type propsType = {
     text: string,
-    imageUrl: any,
-    subTitle: string,
+    imageUrl?: any,
+    subTitle?: string,
 }
 
 export default function ServiceHeroSection(props: propsType) {
