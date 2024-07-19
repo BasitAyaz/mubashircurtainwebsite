@@ -3,13 +3,8 @@
 import BABox from "@/app/components/BABox"
 import BAPera from "@/app/components/BAPera"
 
-type propsType = {
-    text: string,
-    imageUrl?: any,
-    subTitle?: string,
-}
 
-export default function ServiceHeroSection(props: propsType) {
+export default function ServiceHeroSection(props: any) {
     const { text, imageUrl, subTitle } = props
     return <>
         <BABox sx={{ backgroundImage: `url(${imageUrl})` }} className="bg-center p-10 bg-cover">
