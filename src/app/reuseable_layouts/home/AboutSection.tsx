@@ -73,7 +73,7 @@ export default function AboutSection() {
                     {/* Minimalist Stat or Quote */}
                     <div className="mt-12 border-l border-white/10 pl-6 hidden lg:block">
                         <p className="text-white/40 text-sm italic font-serif leading-relaxed">
-                            "Design is not just what it looks like and feels like. Design is how it works."
+                            &quot;Design is not just what it looks like and feels like. Design is how it works.&quot;
                         </p>
                     </div>
                 </div>
